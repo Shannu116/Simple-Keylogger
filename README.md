@@ -17,5 +17,3 @@ A simple keylogger
    - The program will print the logged keys every 5 seconds.
 
 Remember to handle the security implications of keylogging carefully, as it can be misused. Ensure that you have proper authorization and legitimate use cases when implementing such functionality.
-
-Feel free to add this summary to your README.md file on GitHub! If you have any other questions or need further assistance, feel free to ask. 😊
