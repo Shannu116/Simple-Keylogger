@@ -12,8 +12,8 @@ A simple keylogger
    - `start()`: Sets up a keyboard listener using the `pynput` library. It starts listening for key presses and calls the `report()` method.
 
 3.  Usage: 
-   - Create an instance of the `Keylogger` class (e.g., `my_keylogger`).
-   - Call `my_keylogger.start()` to begin capturing key presses.
-   - The program will print the logged keys every 5 seconds.
+   - both 'keylogger.py' and 'key_logger_start' both files should be in same folder because to run key_logger_start module keylogger is important there is no inbuilt module in python
+   - to start the keylogger run the key_logger_start.py file then for every 5 seconds, the log's of key stocks will we appeared in the output panel 
+
 
 Remember to handle the security implications of keylogging carefully, as it can be misused. Ensure that you have proper authorization and legitimate use cases when implementing such functionality.
